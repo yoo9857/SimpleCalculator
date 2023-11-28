@@ -77,7 +77,6 @@ class MainActivity : AppCompatActivity() {
     fun onClearClick(view: View) {
         binding.dateTv.text = ""
         lastNumeric = false
-
     }
 
     fun onEqual(){
