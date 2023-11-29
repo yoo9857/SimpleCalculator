@@ -1,4 +1,4 @@
-/*
+
 fun main() {
     var calculator: String = "+" // 초기값을 "+"로 설정
     var firstNumber: Double = 0.0
@@ -53,4 +53,4 @@ fun main() {
         "*" -> println("$firstNumber * $secondNumber = ${firstNumber * secondNumber}")
         else -> println("Invalid operator")
     }
-}*/
+}
