@@ -4,7 +4,7 @@ interface Sample {
 }
 
 // 덧셈 연산 클래스
- class Add : Sample {
+ /*class Add : Sample {
     override fun calculate(num1: Double, num2: Double): Double {
         return num1 + num2
     }
@@ -84,3 +84,4 @@ fun main() {
 
     println("계산을 종료합니다.")
 }
+*/
