@@ -13,7 +13,7 @@ fun main() {
             if (firstNumber != null) {
                 break
             } else {
-                println("Invalid input. Please enter a valid number.")
+                println("제대로 입력해주세요")
             }
         }
     }
@@ -27,13 +27,13 @@ fun main() {
             if (secondNumber != null) {
                 break
             } else {
-                println("Invalid input. Please enter a valid number.")
+                println("제대로 입력해주세요")
             }
         }
     }
 
     // 연산자 입력
-    print("Enter the operator (+, -, *): ")
+    print("연산자를 입력해주세요 (+, -, *): ")
     while (true) {
         val input = readLine()
         if (input != null) {
@@ -41,7 +41,7 @@ fun main() {
             if (calculator in setOf("+", "-", "*")) {
                 break
             } else {
-                println("Invalid input. Please enter a valid operator (+, -, *).")
+                println("옳바르게 입력해주세요 (+, -, *, /)")
             }
         }
     }
@@ -51,6 +51,7 @@ fun main() {
         "+" -> println("$firstNumber + $secondNumber = ${firstNumber + secondNumber}")
         "-" -> println("$firstNumber - $secondNumber = ${firstNumber - secondNumber}")
         "*" -> println("$firstNumber * $secondNumber = ${firstNumber * secondNumber}")
+        "/" -> println("$firstNumber * $secondNumber = ${firstNumber / secondNumber}")
         else -> println("Invalid operator")
     }
 }
